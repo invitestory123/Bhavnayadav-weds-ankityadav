@@ -1,10 +1,10 @@
 // ─────────────────────────────────────────────────────────────
-// Wedding Invitation Configuration
+// Engagement Invitation Configuration
 // ─────────────────────────────────────────────────────────────
 
 export const invite = {
-  bride: "Bhavna",
-  groom: "Ankit",
+  bride: "Bhavna Yadav",
+  groom: "Ankit Yadav",
   brideFullName: "Bhavna Yadav",
   groomFullName: "Ankit Yadav",
   brideParents: "Mr. Ram Sanjivan Yadav & Mrs. Rani Yadav",
@@ -19,10 +19,10 @@ export const invite = {
   timeZoneOffset: "+05:30",
   dayLine: "Wednesday, 14th October 2026",
   timeLine: "7:00 PM onwards",
-  eventTitle: "Wedding of Bhavna & Ankit",
-  eventHeading: "Join us for the wedding celebration of",
+  eventTitle: "Engagement of Bhavna Yadav & Ankit Yadav",
+  eventHeading: "Join us for the engagement celebration of",
   invitationNote:
-    "Together with their families, we warmly invite you to celebrate the wedding of Bhavna & Ankit — an evening of divine blessings, love, joy, and cherished moments.",
+    "Together with their families, we warmly invite you to share in the joy of the engagement of Bhavna Yadav & Ankit Yadav — an evening of divine blessings, love, laughter, and cherished moments.",
   venue: {
     name: "Skylark Farm",
     address: "Ludhiana, Punjab",
@@ -32,8 +32,10 @@ export const invite = {
     lat: 30.881195,
     lng: 75.830978,
   },
+  closingLead: "On behalf of Yadav Family",
   closing: "Warmly Awaiting Your Presence",
   bgm: "/bgm.mp3",
+  ogImage: "/og-image.jpg",
 } as const;
 
 export const mapsUrl = `https://maps.google.com/?q=${invite.venue.lat},${invite.venue.lng}`;

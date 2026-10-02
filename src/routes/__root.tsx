@@ -77,14 +77,32 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "InviteStory" },
-      { name: "description", content: "Digital wedding invitation" },
+      { title: "Bhavna Yadav & Ankit Yadav — Engagement Invitation" },
+      {
+        name: "description",
+        content:
+          "Bhavna Yadav & Ankit Yadav invite you to celebrate their engagement on Wednesday, 14th October 2026 at Skylark Farm, Ludhiana, Punjab.",
+      },
       { name: "author", content: "InviteStory" },
-      { property: "og:title", content: "InviteStory" },
-      { property: "og:description", content: "Digital wedding invitation" },
+      { property: "og:title", content: "Bhavna Yadav & Ankit Yadav — Engagement Invitation" },
+      {
+        property: "og:description",
+        content:
+          "Bhavna Yadav & Ankit Yadav invite you to celebrate their engagement on Wednesday, 14th October 2026 at Skylark Farm, Ludhiana, Punjab.",
+      },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: "/og-image.jpg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@invitestory.in" },
+      { name: "twitter:title", content: "Bhavna Yadav & Ankit Yadav — Engagement Invitation" },
+      {
+        name: "twitter:description",
+        content:
+          "Bhavna Yadav & Ankit Yadav invite you to celebrate their engagement on Wednesday, 14th October 2026 at Skylark Farm, Ludhiana, Punjab.",
+      },
+      { name: "twitter:image", content: "/og-image.jpg" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },

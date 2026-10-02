@@ -97,13 +97,13 @@ export function Hero({ ready = true }: { ready?: boolean }) {
       </motion.p>
 
       <motion.h1
-        className="script mt-3 text-[3.25rem] leading-[1.05] text-ink sm:text-7xl"
+        className="script mt-3 text-[3rem] leading-[1.1] text-ink sm:text-6xl md:text-7xl"
         initial="hidden"
         animate={anim}
       >
-        <ScriptNames text={invite.bride} delay={0.85} trigger={anim} />
+        <ScriptNames text={invite.bride} delay={0.85} trigger={anim} className="inline-block" />
         <span className="mx-3 text-gold sm:mx-5">&</span>
-        <ScriptNames text={invite.groom} delay={1.2} trigger={anim} />
+        <ScriptNames text={invite.groom} delay={1.2} trigger={anim} className="inline-block" />
       </motion.h1>
 
       {/* Baat Pakki announcement image below couple names */}

@@ -14,19 +14,29 @@ import { Venue } from "@/components/invite/Venue";
 import { invite } from "@/config/invite";
 import { useSmoothScroll } from "@/hooks/use-smooth-scroll";
 
-const title = `${invite.bride} & ${invite.groom} — ${invite.dayLine.split(",")[1]?.trim() ?? invite.dateLabel}`;
-const description = `${invite.bride} & ${invite.groom} invite you to their wedding on ${invite.dayLine} at ${invite.venue.name}, ${invite.venue.city}.`;
+const title = `${invite.bride} & ${invite.groom} — Engagement Invitation`;
+const description = `${invite.bride} & ${invite.groom} invite you to celebrate their engagement on ${invite.dayLine} at ${invite.venue.name}, ${invite.venue.city}.`;
+const ogImage = "/og-image.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: `${title} · Save the Date` },
+      { title },
       { name: "description", content: description },
-      { property: "og:title", content: `${title} · Save the Date` },
+      { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
+      { property: "og:image", content: ogImage },
+      { property: "og:image:secure_url", content: ogImage },
+      { property: "og:image:type", content: "image/jpeg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { property: "og:image:alt", content: `${invite.bride} & ${invite.groom} Engagement` },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: title },
+      { name: "twitter:description", content: description },
+      { name: "twitter:image", content: ogImage },
     ],
     links: [{ rel: "canonical", href: "/" }],
   }),

@@ -1,6 +1,6 @@
-# Bhavna Yadav weds Ankit Yadav
+# Bhavna Yadav & Ankit Yadav — Engagement Invitation
 
-Digital wedding invitation for Bhavna & Ankit.
+Digital engagement invitation for Bhavna Yadav & Ankit Yadav.
 
 - **Date**: Wednesday, 14th October 2026
 - **Venue**: Skylark Farm, Ludhiana, Punjab

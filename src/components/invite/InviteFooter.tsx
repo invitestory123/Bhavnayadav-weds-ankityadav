@@ -33,19 +33,28 @@ export function InviteFooter() {
 
       <div className="relative">
         <motion.p
-          className="caps text-[0.58rem] text-sepia"
+          className="caps text-[0.55rem] tracking-[0.25em] text-olive"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1.2 }}
         >
+          {invite.closingLead}
+        </motion.p>
+        <motion.p
+          className="caps mt-2 text-[0.6rem] text-sepia"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.2, delay: 0.15 }}
+        >
           {invite.closing}
         </motion.p>
 
-        <p className="script mt-5 text-5xl leading-[1.1] text-ink sm:text-6xl">
-          <ScriptNames text={invite.bride} />
+        <p className="script mt-5 text-4xl leading-[1.15] text-ink sm:text-5xl md:text-6xl">
+          <ScriptNames text={invite.bride} className="inline-block" />
           <span className="mx-3 text-gold">&</span>
-          <ScriptNames text={invite.groom} delay={0.3} />
+          <ScriptNames text={invite.groom} delay={0.3} className="inline-block" />
         </p>
 
         <motion.p
