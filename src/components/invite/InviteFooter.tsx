@@ -51,11 +51,11 @@ export function InviteFooter() {
           {invite.closing}
         </motion.p>
 
-        <p className="script mt-5 text-4xl leading-[1.15] text-ink sm:text-5xl md:text-6xl">
-          <ScriptNames text={invite.bride} className="inline-block" />
-          <span className="mx-3 text-gold">&</span>
-          <ScriptNames text={invite.groom} delay={0.3} className="inline-block" />
-        </p>
+        <div className="script mt-6 flex flex-col items-center justify-center text-4xl leading-[1.15] text-ink sm:text-5xl md:text-6xl">
+          <ScriptNames text={invite.bride} />
+          <span className="my-1 text-2xl text-gold sm:my-2 sm:text-3xl">&</span>
+          <ScriptNames text={invite.groom} delay={0.3} />
+        </div>
 
         <motion.p
           className="caps mt-8 text-[0.5rem] text-sepia/80"
