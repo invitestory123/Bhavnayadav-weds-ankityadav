@@ -1,5 +1,6 @@
 import { motion, useReducedMotion, useTransform } from "motion/react";
 import { useCallback, useRef, useState } from "react";
+const couple = "https://media.invitestory.in/marigold-bhavan/src/assets/couple.png";
 import baatPakki from "@/assets/baat-pakki.jpg";
 import { invite } from "@/config/invite";
 import { useParallax } from "@/hooks/use-parallax";
@@ -71,14 +72,15 @@ export function Hero({ ready = true }: { ready?: boolean }) {
         {invite.dateLabel}
       </motion.p>
 
+      {/* Couple Illustration */}
       <motion.div style={{ y, opacity: fade }} className="mt-8 w-full max-w-sm sm:max-w-md">
         <motion.img
-          src={baatPakki}
-          alt={`Baat Pakki celebration of ${invite.bride} and ${invite.groom}`}
+          src={couple}
+          alt={`Illustration of ${invite.bride} and ${invite.groom} holding photo frames`}
           width={1024}
-          height={576}
+          height={1024}
           draggable={false}
-          className="mx-auto w-full select-none rounded-xl border border-border/80 shadow-[0_18px_38px_-18px_rgba(60,45,25,0.45)]"
+          className="mx-auto w-full select-none"
           initial={{ opacity: 0, scale: 0.96 }}
           animate={ready ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.96 }}
           transition={{ duration: 1.4, delay: 0.3, ease }}
@@ -103,6 +105,23 @@ export function Hero({ ready = true }: { ready?: boolean }) {
         <span className="mx-3 text-gold sm:mx-5">&</span>
         <ScriptNames text={invite.groom} delay={1.2} trigger={anim} />
       </motion.h1>
+
+      {/* Baat Pakki announcement image below couple names */}
+      <motion.div
+        className="mt-8 w-full max-w-sm sm:max-w-md overflow-hidden rounded-xl border border-border/80 shadow-[0_18px_38px_-18px_rgba(60,45,25,0.45)]"
+        initial={{ opacity: 0, y: 16 }}
+        animate={ready ? { opacity: 1, y: 0 } : { opacity: 0, y: 16 }}
+        transition={{ duration: 1.2, delay: 1.4, ease }}
+      >
+        <img
+          src={baatPakki}
+          alt={`Baat Pakki celebration of ${invite.bride} and ${invite.groom}`}
+          width={1024}
+          height={576}
+          draggable={false}
+          className="w-full select-none"
+        />
+      </motion.div>
 
       <motion.button
         type="button"
