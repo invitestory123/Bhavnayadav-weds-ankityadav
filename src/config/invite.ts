@@ -4,9 +4,9 @@
 
 export const invite = {
   bride: "Bhavna Yadav",
-  groom: "Ankit Yadav",
+  groom: "Ashutosh",
   brideFullName: "Bhavna Yadav",
-  groomFullName: "Ankit Yadav",
+  groomFullName: "Ashutosh",
   brideParents: "Mr. Ram Sanjivan Yadav & Mrs. Rani Yadav",
   groomParents: "Late Mr. Ashok Kumar Yadav & Mrs. Suman Yadav",
   monogram: "BA",
@@ -19,10 +19,10 @@ export const invite = {
   timeZoneOffset: "+05:30",
   dayLine: "Wednesday, 14th October 2026",
   timeLine: "7:00 PM onwards",
-  eventTitle: "Engagement of Bhavna Yadav & Ankit Yadav",
+  eventTitle: "Engagement of Bhavna Yadav & Ashutosh",
   eventHeading: "Join us for the engagement celebration of",
   invitationNote:
-    "Together with their families, we warmly invite you to share in the joy of the engagement of Bhavna Yadav & Ankit Yadav — an evening of divine blessings, love, laughter, and cherished moments.",
+    "Together with their families, we warmly invite you to share in the joy of the engagement of Bhavna Yadav & Ashutosh — an evening of divine blessings, love, laughter, and cherished moments.",
   venue: {
     name: "Skylark Farm",
     address: "Ludhiana, Punjab",

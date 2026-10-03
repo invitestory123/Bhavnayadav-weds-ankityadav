@@ -1,6 +1,6 @@
-# Bhavna Yadav & Ankit Yadav — Engagement Invitation
+# Bhavna Yadav & Ashutosh — Engagement Invitation
 
-Digital engagement invitation for Bhavna Yadav & Ankit Yadav.
+Digital engagement invitation for Bhavna Yadav & Ashutosh.
 
 - **Date**: Wednesday, 14th October 2026
 - **Venue**: Skylark Farm, Ludhiana, Punjab

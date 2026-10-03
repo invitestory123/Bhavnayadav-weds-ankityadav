@@ -77,18 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Bhavna Yadav & Ankit Yadav — Engagement Invitation" },
+      { title: "Bhavna Yadav & Ashutosh — Engagement Invitation" },
       {
         name: "description",
         content:
-          "Bhavna Yadav & Ankit Yadav invite you to celebrate their engagement on Wednesday, 14th October 2026 at Skylark Farm, Ludhiana, Punjab.",
+          "Bhavna Yadav & Ashutosh invite you to celebrate their engagement on Wednesday, 14th October 2026 at Skylark Farm, Ludhiana, Punjab.",
       },
       { name: "author", content: "InviteStory" },
-      { property: "og:title", content: "Bhavna Yadav & Ankit Yadav — Engagement Invitation" },
+      { property: "og:title", content: "Bhavna Yadav & Ashutosh — Engagement Invitation" },
       {
         property: "og:description",
         content:
-          "Bhavna Yadav & Ankit Yadav invite you to celebrate their engagement on Wednesday, 14th October 2026 at Skylark Farm, Ludhiana, Punjab.",
+          "Bhavna Yadav & Ashutosh invite you to celebrate their engagement on Wednesday, 14th October 2026 at Skylark Farm, Ludhiana, Punjab.",
       },
       { property: "og:type", content: "website" },
       { property: "og:image", content: "/og-image.jpg" },
@@ -96,11 +96,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@invitestory.in" },
-      { name: "twitter:title", content: "Bhavna Yadav & Ankit Yadav — Engagement Invitation" },
+      { name: "twitter:title", content: "Bhavna Yadav & Ashutosh — Engagement Invitation" },
       {
         name: "twitter:description",
         content:
-          "Bhavna Yadav & Ankit Yadav invite you to celebrate their engagement on Wednesday, 14th October 2026 at Skylark Farm, Ludhiana, Punjab.",
+          "Bhavna Yadav & Ashutosh invite you to celebrate their engagement on Wednesday, 14th October 2026 at Skylark Farm, Ludhiana, Punjab.",
       },
       { name: "twitter:image", content: "/og-image.jpg" },
     ],
